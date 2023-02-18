@@ -1,0 +1,33 @@
+body {
+    background-color: #1B244D;
+}
+img {
+    width: 125px;
+    height: 125px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration-color: #FFCC57;
+}
+.contact {
+    margin-left: 700px;
+    border-radius: 30px;
+}
+button {
+    width: 150px;
+    background-color: rgba(211, 211, 211, 0.2)
+}
+#rhejoel {
+    width: 300px;
+    height: 300px;
+}
+index {
+    width: 30%;
+    height: 345px;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+}
