@@ -5,19 +5,20 @@
 }
 #body {
     background-color: rgba(0, 0, 0, 1);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7));
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, .9));
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     /* padding-top: 80px; */
 }
-#rhejoel {
+.rhejoel {
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: contain ;
 }
 .searchbar {
     position: relative;
@@ -26,9 +27,9 @@
     margin-top: 5px;
 }
 .rhejpic {
-    background-color: white;
+    background-color: #FFCC57;
     background-attachment: fixed;
-    box-shadow: 0 0 10px white;
+   /*  box-shadow: 0 0 10px white; */
     border-radius: 10px;
     /* background: linear-gradient(to top, #FFCC57, #1B244D); */
 }
@@ -42,16 +43,57 @@
     align-items: center;
 }
 .box1 {
-    margin-top: 200px;
+    margin-top: 300px;
+}
+.intro1 {
+    flex-wrap: wrap;
 }
 .intro-text {
     margin-top: 20px;
+    color: white;
+    text-shadow: 0 0 20px black;
 }
 .head1 {
     background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    top: 0;
 }
 .hr-home {
     color: #FFCC57; margin-top: 30px;
     margin-top: 90px;
     
+}
+.intro-name {
+    margin-top: 190px;
+    color: beige;
+}
+.name {
+    font-family: garamond;
+    font-size: 120px;
+    text-shadow: 0 0 5px white;
+}
+.about {
+    font-size: 50px;
+    color: beige;
+}
+.lang-image img {
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    background: linear-gradient(to bottom, rgba(211, 211, 211, .4), rgba(0, 0, 0, 1) ) ;
+}
+.lang-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prog-image img {
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.prog-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
