@@ -96,4 +96,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+        color: beige;
+}
+.contact-me {
+    margin-top: 90px;
 }
