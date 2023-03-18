@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <Title>My Portfolio</Title>
         <link rel="stylesheet" href="style1.1.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
     <body id="body">
@@ -12,10 +13,11 @@
             <section class="nav-head">
                 <nav class="navbar navbar-expand-sm">
                     <div class="container header">
-                        <img src="josonlogo1.png" width="60px">
-                        <button class="navbar-toggler bg-success" style="color: beige;">
-                            <span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target
-                            ="#thenavbar"></span>
+                        <img src="footerlogo2.png" width="60px">
+                        <button class="navbar-toggler" style="color:#FFCC57;">
+                            <span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#thenavbar"
+                              style="background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 30 30%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath stroke=%22none%22 fill=%22%23FFCC57%22 d=%22M4 9h22v2H4zM4 15h22v2H4zM4 21h22v2H4z%22/%3E%3C/svg%3E')">
+                            </span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="thenavbar">
                             <ul class="navbar-nav">
@@ -26,77 +28,539 @@
                                 <a href="#About-me" class="nav-link" style="color: #FFCC57;">About</a>
                                 </li>
                                 <li class="nav-item">
-                                <a href="#Contact" class="nav-link" style="color: #FFCC57;">Contact</a>
+                                <a href="#portfolio" class="nav-link" style="color: #FFCC57;">Portfolio</a>
                                 </li>
-                                <li class="input-group searchbox">
-                                    <input type="search" placeholder="Search" class="searchbar">
+                                <li class="nav-item">
+                                    <a href="#Contact" class="nav-link" style="color: #FFCC57;">Contact</a>
                                 </li>
                             </ul>   
                         </div>
                     </div>
                 </nav>
             </section>
-        </div>
-        <div class="container intro-name" id="home-page">
-            <div class="row">
-                <p class="text-start" style="font-size: 50px;">Hi! I'm..</p>
-                <h1 class="text-center name">Rhejoel Joson</h1>
+        </div><br id="home-page">
+        <section>
+            <div class="container-fluid intro-name">
+                <div class="row intro">
+                    <p class="text-center" style="font-size: 50px; color: #FFCC57;">Hi! I'm..</p>
+                    <div id="myName">
+                        <h1 class="text-center name">Rhejoel Joson</h1>
+                    </div>
+                </div>
             </div>
-            <!-- <div class="row prog-image">
-                <img src="https://d33wubrfki0l68.cloudfront.net/e30f5c73b13700def26ffaff97b298c2244e87f9/62fc3/web-programming.svg">
-            </div> -->
-        </div>
+        </section>
         <div class="container box1"><hr class="hr-home" style="margin-bottom: 50px;">
-            <div class="row intro1">
-                <!-- <div class="col-4 rhejpic">
-                    <img src="Rhejoel.png"; class="rhejoel">
-                </div> -->
-                <div class="col intro">
-                    <h1 class="intro-text">"Welcome to my portfolio! As a passionate student of full-stack web development, I am excited to share what I've learned and my journey with you."</h1>
-                    <div class="row lang-image">
-                        <img src="https://www.freeiconspng.com/uploads/w3c-html5-logo-0.png" style="border-top-left-radius: 20px ; border-bottom-left-radius: 20px">
-                        <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png">
-                        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" style="border-top-right-radius: 20px ; border-bottom-right-radius: 20px">
-                    </div>
-                </div>
-            </div><hr class="hr-home">
-            <div class="row" style="margin-bottom: 30px;">
-                <div class="row" id="About-me">
-                    <h1 class="about">About Me</h1>
-                    <div class="col-8" style="color: beige;">
-                        <p>Hello there! My name is Rhejoel B. Joson, but you can call me "Jo" or "Joel" for short. I'm a 27-year-old full stack web development student from Manila.
+            <section>
+                <div class="row intro1 reveal">
 
-                            My interest for programming began when I was tasked to explore MS Power Automate. Since then, I've been very curious about the world of Tech Industry, and I've been honing my skills ever since.
-                        </p>
-                        <div class="row">
-                            <h1>Technical Skills</h1>
+                    <div class="col intro">
+                        <h1 class="intro-text">"Welcome to my portfolio! As a passionate student of full-stack web development, I am excited to share what I've learned and my journey with you."</h1>
+                        
+                    </div>
+                </div><hr class="hr-home">
+            </section>
+
+            <div class="row" style="margin-bottom: 30px;" id="About-me">
+                <section>
+                    <div class="row aboutMainCont reveal">
+                        <h1 class="about" style="margin-top: 200px;">About Me</h1>
+                        <div class="row Rhejoel2">
+                            <img src="RhejoelAboutpic.jpg" class="rhejoel2">
                         </div>
-                        <div class="row" style="text-align: center;">
-                            <h5 style="color: #FFCC57;">Languages and Frameworks:</h5>
+                        <div class="col-8 aboutContent" style="color: beige;">
+                            <p>Hello there! My name is Rhejoel B. Joson, and I'm a full-stack web development student from Manila. You can call me "Jo" or "Joel" for short. My interest in the tech industry started when I was tasked to explore a cloud-based automation system, and since then, I've been increasingly curious about this exciting field. I've been honing my skills ever since and am eager to learn more about the latest developments and advancements in the tech industry.
+                            </p>
+                            <div class="row techSkills">
+                                <h1>Technical Skills</h1>
+                            </div>
+                            <div class="row" id="LandF">
+                                <div class="col" id="frontEnd">
+                                    <h5>Front-End:</h5>
+                                    <div class="row lang-image">
+                                        <div class="col langContent">
+                                            <img src="https://www.freeiconspng.com/uploads/w3c-html5-logo-0.png">
+                                            <div class="label">
+                                                <p>HTML</p>
+                                            </div>
+                                        </div>
+                                        <div class="col langContent">
+                                            <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png">
+                                            <div class="label">
+                                                <p>CSS</p>
+                                            </div>
+                                        </div>
+                                        <div class="col langContent">
+                                            <img src="https://www.ankitweblogic.com/javascript/js_img/javascript.png">
+                                            <div class="label">
+                                                <p>JavaScript</p>
+                                            </div>
+                                        </div>
+                                        <div class="col langContent">
+                                            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png">
+                                            <div class="label">
+                                                <p>BOOTSTRAP</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <h5>Back-End:</h5>
+                                    <p>Coming Soon...</p>
+                                </div>
+        
+                            </div>
+
                         </div>
+                        <div class="aboutContent2" style="color: beige; margin-top: 20px;">
+                            <p>Hello there! My name is Rhejoel B. Joson, and I'm a full-stack web development student from Manila. You can call me "Jo" or "Joel" for short. My interest in the tech industry started when I was tasked to explore a cloud-based automation system, and since then, I've been increasingly curious about this exciting field. I've been honing my skills ever since and am eager to learn more about the latest developments and advancements in the tech industry.
+                            </p>
+                            <div class="row techSkills">
+                                <h1>Technical Skills</h1>
+                            </div>
+                            <div class="row" id="LandF">
+                                <div class="col" id="frontEnd">
+                                    <h5>Front-End:</h5>
+                                    <div class="row lang-image">
+                                        <div class="col langContent">
+                                            <img src="https://www.freeiconspng.com/uploads/w3c-html5-logo-0.png">
+                                            <div class="label">
+                                                <p>HTML</p>
+                                            </div>
+                                        </div>
+                                        <div class="col langContent">
+                                            <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png">
+                                            <div class="label">
+                                                <p>CSS</p>
+                                            </div>
+                                        </div>
+                                        <div class="col langContent">
+                                            <img src="https://www.ankitweblogic.com/javascript/js_img/javascript.png">
+                                            <div class="label">
+                                                <p>JavaScript</p>
+                                            </div>
+                                        </div>
+                                        <div class="col langContent">
+                                            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png">
+                                            <div class="label">
+                                                <p>BOOTSTRAP</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <h5>Back-End:</h5>
+                                    <p>Coming Soon...</p>
+                                </div>
+        
+                            </div>
+
+                        </div>
+                        <div class="col-4 Rhejoel1">
+                            <img src="RhejoelAboutpic.jpg" class="rhejoel">
+                        </div>
+                    </div><hr class="hr-home" id="portfolio" style="margin-top: 120px;">
+                </section>
+                <div class="row portGrid reveal" style="margin-top: 100px;">
+                    <h1 class="about" style="color: #FFCC57;">My Work</h1>
+                    <div class="col-4 myWork">
+                        <a href="WD48P_R.Joson.html" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>World Wide Web</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="1st WWW.png">
+
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS</h6>
+                                <div class="work-image">
+                                    <p>Redesigned the first world wide web to reflect modern preferences.</p>
+                                    
+                                </div>
+                                
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-4">
-                        <img src="RhejoelAboutpic.jpg" class="rhejoel">
+                    
+                        <div class="myWork2 reveal">
+                            <a href="WD48P_R.Joson.html" target="_blank">
+                                <div class="row">
+                                    <h1 class="www">
+                                        <b>World Wide Web</b>
+                                    </h1>
+                                </div>
+                                <div class="row workImage">
+                                    <img src="1st WWW.png">
+
+                                    <p>Built with:</p>
+
+                                    <h6>HTML • CSS</h6>
+                                    <div class="work-image">
+                                        <p>Redesigned the first world wide web to reflect modern preferences.</p>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </a>
+                        </div>
+
+                    <div class="col-4 myWork">
+                        <a href="Div.html" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>Page Layout using DIV</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="Page layout using DIV.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS</h6>
+                                <div class="workImage">
+                                    <p>Constructed a dynamic page layout with div.</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
+
+                    <div class="myWork2 reveal">
+                        <a href="Div.html" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>Page Layout using DIV</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="Page layout using DIV.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS</h6>
+                                <div class="workImage">
+                                    <p>Constructed a dynamic page layout with div.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-4 myWork">
+                        <a href="Semantic.html" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>Page Layout using Semantic</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="Page layout using Semantic.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS</h6>
+                                <div class="workImage">
+                                    <p>Constructed a page layout using Semantic HTML.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="myWork2 reveal">
+                        <a href="Semantic.html" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>Page Layout using Semantic</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="Page layout using Semantic.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS</h6>
+                                <div class="workImage">
+                                    <p>Constructed a page layout using Semantic HTML.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
-                <div class="row">
-                    <h1 class="about">My Work</h1>
-                </div>
-                <div class="row contact-me prog-image" id="Contact">
-                    <h1 class="about">Contact</h1>
-                    <div class="col">
-                        <a href="https://www.instagram.com/imyourrhej/"><img src="https://cdn-icons-png.flaticon.com/512/3621/3621435.png"></a>@imyourrhej
+                <div class="row reveal">
+                    <div class="col-4 myWork">
+                        <a href="https://sundae-soup.github.io/online-library-using-bootstrap/index.html" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>Online library</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="Responsive Online library using Bootstrap.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS • BOOTSTRAP</h6>
+                                <div class="workImage">
+                                    <p>Constructed a responsive online library using Bootstrap, enhancing the browsing experience for users.</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col">
-                        <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"></a>/rhejoelsoyti
+
+                    <div class="myWork2 reveal">
+                        <a href="https://sundae-soup.github.io/online-library-using-bootstrap/index.html" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>Online library</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="Responsive Online library using Bootstrap.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS • BOOTSTRAP</h6>
+                                <div class="workImage">
+                                    <p>Constructed a responsive online library using Bootstrap, enhancing the browsing experience for users.</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col">
-                        <a href=""><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>Rhejoel Joson
+
+                    <div class="col-4 myWork">
+                        <a href="https://sundae-soup.github.io/KodeGo-Activity-6-JS-Game/" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>JS Game</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="JS-game.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS • BOOTSTRAP • JAVASCRIPT</h6>
+                            </div>
+                            <div class="workImage">
+                                <p>A simple game using JavaScript Conditional Statements, HTML DOM etc.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="myWork2 reveal">
+                        <a href="https://sundae-soup.github.io/KodeGo-Activity-6-JS-Game/" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>JS Game</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="JS-game.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS • BOOTSTRAP • JAVASCRIPT</h6>
+                            </div>
+                            <div class="workImage">
+                                <p>A simple game using JavaScript Conditional Statements, HTML DOM etc.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-4 myWork">
+                        <a href="https://sundae-soup.github.io/To-Do-List-HTML-DOM-and-Conditional-Statement-/" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>To Do List</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="MyToDoList.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS • BOOTSTRAP • JAVASCRIPT</h6>
+                            </div>
+                            <div class="workImage">
+                                <p>Created to practice the use of DOM manipulation. To Do List Website that will let the user enter their tasks for the day.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="myWork2 reveal">
+                        <a href="https://sundae-soup.github.io/To-Do-List-HTML-DOM-and-Conditional-Statement-/" target="_blank">
+                            <div class="row">
+                                <h1 class="www">
+                                    <b>To Do List</b>
+                                </h1>
+                            </div>
+                            <div class="row workImage">
+                                <img src="MyToDoList.png">
+                                <p>Built with:</p>
+
+                                <h6>HTML • CSS • BOOTSTRAP • JAVASCRIPT</h6>
+                            </div>
+                            <div class="workImage">
+                                <p>Created to practice the use of DOM manipulation. To Do List Website that will let the user enter their tasks for the day.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div><hr class="hr-home" style="margin-top: 100px;">
+                
+                <!-- Contact page section -->
+                <br id="Contact">
+                <div class="row contact-me prog-image reveal">
+                    <h1 class="about">Have questions?</h1>
+                    <section class="mb-5 consConnect">
+                        <h3 class="techSkills">Get in touch with me today.</h3>
+                        <p style="color: beige;">Please feel free to send a message</p>
+                        <form class="Form">
+                            <div class="row contactInfo">
+                                <div class="col mb-2">
+                                    <label for="" class="form-label">Email</label>
+                                    <input type="email" name="" id="" class="form-control" placeholder="Enter your email" style="width: 300px">
+                                </div>
+                                <div class="col mb-2">
+                                    <label for="" class="form-label">Name</label>
+                                    <input type="text" name="" id="" class="form-control" placeholder="Full Name" style="width: 300px;">
+                                </div>
+                                <div class="col mb-2">
+                                    <label for="" class="form-label">Contact#</label>
+                                    <input type="tel" name="" id="" class="form-control" placeholder="+63" style="width: 300px;">
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <label for="" class="form-label">Message</label>
+                                <textarea name="" id="" rows="5" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn" style="background-color: #FFCC57;">Send</button>
+                        </form>
+                    </section>
+                    <div class="contactDetails">
+                        <h6>Other contact details</h6>
+                        <div class="endPage">
+                            <svg style="margin-top: 5px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                                <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                            </svg>
+                            <p>+639650548779</p>  
+                        </div>
+                        <div class="endPage">
+                            <svg style="margin-top: 5px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                                <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                            </svg>
+                            <p>rhejoel.joson@outlook.com</p>
+                        </div>
+                        <div class="endPage">
+                            <svg style="margin-top: 5px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
+                                <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+                            </svg>
+                            <p>Manila, Philippines</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer><p style="font-size: smaller; text-align: center;">© Joson</p></footer>
+
+        <!-- FOOTER SECTION -->
+
+        <div class="container-fluid" style="background-color:black; color: gray;">
+            <hr class="hr-home">
+            <div class="container endPage">
+                <div class="col endPage"> 
+                    <div class="col footerSocial1" style="margin-top: 30px;">
+                        <h6>Socials</h6>
+                        <div class="row" style="margin-top: 40px;">
+                            <div class="col">
+                                <a href="https://www.instagram.com/imyourrhej/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-instagram" viewBox="0 0 16 16" style="margin-left: 150px;">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="margin-top: 5px;" href="https://www.facebook.com/profile.php?id=100090841134590" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-facebook" viewBox="0 0 16 16" style="margin-left: 70px;">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a style="margin-top: 5px;" href="https://www.linkedin.com/in/rhejoel-joson-40ba36206" target="_blank" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-linkedin" viewBox="0 0 16 16" style="margin-left: 30px;">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="margin-top: 5px;" href="https://www.linkedin.com/in/rhejoel-joson-40ba36206" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="gray" class="bi bi-discord" viewBox="0 0 16 16" style="margin-right: 150px;">
+                                        <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+                    
+                </div>
+                <div class="col footLogo">
+                    <div class="footerlogo">
+                        <img src="footerlogo.png">
+                        <h1>JOSON</h1>  
+                    </div>
+
+                    
+ 
+                    <div class="footerlogo" style="font-style: italic; font-size: x-small; margin-left: 45px; color: beige;">
+                        <p>Pushing the boundaries towards growth and innovation</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row footerSocial">
+                <h6 style="text-align: center;">Socials</h6>
+                <div class="col footerSocial">   
+                    <a href="https://www.instagram.com/imyourrhej/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col footerSocial">
+                    <a style="margin-top: 5px;" href="https://www.facebook.com/profile.php?id=100090841134590" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col footerSocial">
+                    <a style="margin-top: 5px;" href="https://www.linkedin.com/in/rhejoel-joson-40ba36206" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col footerSocial">
+                    <a style="margin-top: 5px;" href="https://www.linkedin.com/in/rhejoel-joson-40ba36206" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-discord" viewBox="0 0 16 16">
+                            <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footLogo2">
+                <div class="footerlogo">
+                    <img src="footerlogo.png" style="margin-right: 30px;">
+                    <!-- <h1>JOSON</h1>   -->
+                </div>
+
+                
+
+                <div class="footerQuote" style="font-style: italic; font-size: x-small; margin-left: 45px; color: beige;">
+                    <p style="margin-right: 45px;">Pushing the boundaries towards growth and innovation</p>
+                </div>
+            </div>
+            
+            <p style="font-size: smaller; text-align: center;">Copyright ©2023 Joson. All Rights Reserved</p>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
     </body>
 </html>
